@@ -1,3 +1,5 @@
+@use './_mixins' as *
+
 .montserrat
   font-family: "Montserrat", sans-serif
   font-optical-sizing: auto
@@ -12,12 +14,15 @@ body
         color: #ffffff
         background-image: url('../assets/img/banner.jpg')
         header
-            display: flex
-            flex-direction: column
-            align-content: center
+            h1
+                text-align: center
+            h4
+                text-align: center
+            button
+                justify-self: center
+                @include btn                
         nav
             display: flex
-            flex-wrap: wrap            
             justify-content: space-between
             padding: 1vw
             p

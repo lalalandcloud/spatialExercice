@@ -10480,14 +10480,22 @@ body .header {
   color: #ffffff;
   background-image: url("../assets/img/banner.jpg");
 }
-body .header header {
+body .header header h1 {
+  text-align: center;
+}
+body .header header h4 {
+  text-align: center;
+}
+body .header header button {
+  justify-self: center;
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  justify-content: center;
 }
 body .header nav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 1vw;
 }
