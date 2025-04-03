@@ -74,6 +74,8 @@ body
     // align-self: center
 
     .div1
+        text-align: center
+
         h1
             @include titre2
         h4
@@ -126,8 +128,10 @@ body
     div
         h1
             @include titre2
+            padding-left: 20px
         h5
             @include sous-titre2
+            padding-left: 20px
         
 #sect3div2
     display: flex
@@ -183,3 +187,30 @@ body
         @include btn
         background-color: #f32853       
         color: #ffffff  
+
+footer
+    background-color: #f6f6f6
+    color: #aaaaaa
+    padding-top: 50px
+    padding-bottom: 50px
+    div:first-of-type
+        display: flex
+        justify-self: center
+        div
+            padding: 30px
+
+        i
+            font-size: 30px
+    div:nth-of-type(2)
+        display: flex
+        justify-self: center
+        p
+            padding: 20px
+            border-right: solid #aaaaaa 1px
+            font-size: 12px
+            padding-top: 3px
+            padding-bottom: 3px
+        p:last-of-type
+            border: none
+
+

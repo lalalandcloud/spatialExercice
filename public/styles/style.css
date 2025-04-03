@@ -10562,6 +10562,9 @@ body .header nav ul li {
   flex-direction: column;
   padding: 60px;
 }
+.sect2 .div1 {
+  text-align: center;
+}
 .sect2 .div1 h1 {
   font-size: 35px;
   color: rgba(0, 0, 0, 0.6901960784);
@@ -10635,10 +10638,12 @@ body .header nav ul li {
   color: rgba(0, 0, 0, 0.6901960784);
   letter-spacing: 2px;
   margin-bottom: 15px;
+  padding-left: 20px;
 }
 .sect3 div h5 {
   color: rgba(0, 0, 0, 0.4431372549);
   font-weight: lighter;
+  padding-left: 20px;
 }
 
 #sect3div2 {
@@ -10721,6 +10726,37 @@ body .header nav ul li {
   margin-top: 30px;
   background-color: #f32853;
   color: #ffffff;
+}
+
+footer {
+  background-color: #f6f6f6;
+  color: #aaaaaa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer div:first-of-type {
+  display: flex;
+  justify-self: center;
+}
+footer div:first-of-type div {
+  padding: 30px;
+}
+footer div:first-of-type i {
+  font-size: 30px;
+}
+footer div:nth-of-type(2) {
+  display: flex;
+  justify-self: center;
+}
+footer div:nth-of-type(2) p {
+  padding: 20px;
+  border-right: solid #aaaaaa 1px;
+  font-size: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+footer div:nth-of-type(2) p:last-of-type {
+  border: none;
 }
 
 /*!
