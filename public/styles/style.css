@@ -10532,6 +10532,7 @@ body .header nav ul li {
 }
 
 .sect1 {
+  display: flex;
   justify-self: center;
   padding-left: 18vw;
   padding-bottom: 4vw;
@@ -10762,6 +10763,15 @@ footer div:nth-of-type(2) p:last-of-type {
 @media (max-width: 576px) {
   .header nav ul {
     flex-direction: column;
+  }
+  .sect1 {
+    padding: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .sect1 div {
+    max-width: 576px;
   }
 }
 /*!
