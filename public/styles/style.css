@@ -10623,6 +10623,52 @@ body .header nav ul li {
   color: #ffffff;
 }
 
+.sect3 {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sect3 div h1 {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.6901960784);
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.sect3 div h5 {
+  color: rgba(0, 0, 0, 0.4431372549);
+  font-weight: lighter;
+}
+
+.mini {
+  display: flex;
+}
+.mini div h6 {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.6901960784);
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #000000;
+}
+.mini div p:first-of-type {
+  color: rgba(0, 0, 0, 0.4431372549);
+  font-weight: lighter;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+.mini div p:last-of-type {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4431372549);
+}
+.mini img {
+  width: 150px;
+  border-radius: 50%;
+  border: solid 7px rgba(83, 83, 83, 0.168627451);
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
