@@ -10773,6 +10773,24 @@ footer div:nth-of-type(2) p:last-of-type {
   .sect1 div {
     max-width: 576px;
   }
+  .paragraphe p {
+    text-align: justify;
+  }
+  .sect2 {
+    padding: 22vw;
+  }
+  .sect2 .div2 {
+    display: block !important;
+  }
+  .sect2 .div2 .carte div {
+    height: 32vw !important;
+  }
+  .sect2 .div2 .carte div img {
+    max-height: none;
+  }
+  .div3 {
+    flex-wrap: w;
+  }
 }
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
