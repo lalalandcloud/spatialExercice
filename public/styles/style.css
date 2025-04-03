@@ -10765,7 +10765,7 @@ footer div:nth-of-type(2) p:last-of-type {
     flex-direction: column;
   }
   .sect1 {
-    padding: 2vw;
+    padding: 1vw;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
@@ -10777,19 +10777,31 @@ footer div:nth-of-type(2) p:last-of-type {
     text-align: justify;
   }
   .sect2 {
-    padding: 22vw;
+    padding: 11vw;
   }
   .sect2 .div2 {
     display: block !important;
   }
   .sect2 .div2 .carte div {
-    height: 32vw !important;
+    height: 42vw !important;
   }
   .sect2 .div2 .carte div img {
     max-height: none;
   }
-  .div3 {
-    flex-wrap: w;
+  .sect2 .div3 {
+    flex-wrap: wrap;
+  }
+  .sect3 .mini {
+    flex-wrap: wrap-reverse;
+    justify-items: center;
+    padding: 0;
+    width: 200px !important;
+  }
+  .sect3 .mini div {
+    padding: 0;
+  }
+  .sect3 #sect3div2 {
+    flex-wrap: wrap;
   }
 }
 /*!
