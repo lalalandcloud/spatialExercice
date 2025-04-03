@@ -129,10 +129,15 @@ body
         h5
             @include sous-titre2
         
+#sect3div2
+    display: flex
+    flex-wrap: wrap
 
 .mini
     display: flex
+    padding: 10px
     div
+        padding: 10px
         h6
             @include titre2
             font-size: 13px
@@ -147,3 +152,34 @@ body
             color: #00000071
     img
         @include mini
+
+.mini:nth-of-type(2)
+    flex-direction: row-reverse
+.mini:nth-of-type(4)
+    flex-direction: row-reverse
+
+#sect4
+    display: flex
+    flex-direction: column
+    color: #ffffff
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/banner.jpg')
+    background-attachment: fixed
+    background-position: 100px
+    padding-top: 50px
+    padding-bottom: 50px
+    align-items: center
+
+    h1
+        @include titre
+        text-align: center
+        text-size: 30px
+
+    h4
+        @include sous-titre
+        text-align: center
+    button
+        justify-self: center
+        display: flex
+        @include btn
+        background-color: #f32853       
+        color: #ffffff  

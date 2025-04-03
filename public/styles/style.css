@@ -10641,8 +10641,17 @@ body .header nav ul li {
   font-weight: lighter;
 }
 
+#sect3div2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .mini {
   display: flex;
+  padding: 10px;
+}
+.mini div {
+  padding: 10px;
 }
 .mini div h6 {
   font-size: 35px;
@@ -10667,6 +10676,51 @@ body .header nav ul li {
   width: 150px;
   border-radius: 50%;
   border: solid 7px rgba(83, 83, 83, 0.168627451);
+}
+
+.mini:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+.mini:nth-of-type(4) {
+  flex-direction: row-reverse;
+}
+
+#sect4 {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/banner.jpg");
+  background-attachment: fixed;
+  background-position: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+#sect4 h1 {
+  padding: 1vw;
+  font-size: 45px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-size: 30px;
+}
+#sect4 h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+#sect4 button {
+  justify-self: center;
+  display: flex;
+  padding: 1vw 2.5vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  background-color: #f32853;
+  color: #ffffff;
 }
 
 /*!
