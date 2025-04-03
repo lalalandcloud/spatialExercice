@@ -10803,6 +10803,9 @@ footer div:nth-of-type(2) p:last-of-type {
   .sect3 #sect3div2 {
     flex-wrap: wrap;
   }
+  footer {
+    padding: 0;
+  }
 }
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
