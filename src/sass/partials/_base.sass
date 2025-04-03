@@ -10,17 +10,28 @@
 body
     margin: 0
     font-family: montserrat
+    width: 99vw
     .header
         color: #ffffff
-        background-image: url('../assets/img/banner.jpg')
+        // background-image: url('../assets/img/banner.jpg')
+        padding-bottom: 15vw
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/banner.jpg')
+        background-attachment: fixed
         header
+            padding-top: 4vw
             h1
                 text-align: center
+                @include titre
             h4
                 text-align: center
+                width: 50%
+                justify-self: center
+                @include sous-titre
             button
                 justify-self: center
-                @include btn                
+                @include btn
+                background-color: #f32853       
+                color: #ffffff       
         nav
             display: flex
             justify-content: space-between
