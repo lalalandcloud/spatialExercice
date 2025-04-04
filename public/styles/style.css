@@ -10786,7 +10786,14 @@ footer div:nth-of-type(2) p:last-of-type {
     height: 42vw !important;
   }
   .sect2 .div2 .carte div img {
-    max-height: none;
+    object-fit: co;
+    width: 100%;
+  }
+  .sect2 .div2 .carte h4 {
+    background-color: #ffffff;
+    min-width: 50px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .sect2 .div3 {
     flex-wrap: wrap;
