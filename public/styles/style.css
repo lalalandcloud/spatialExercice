@@ -10762,7 +10762,7 @@ footer div:nth-of-type(2) p:last-of-type {
 
 @media (max-width: 576px) {
   .header {
-    padding-bottom: 3vw;
+    padding-bottom: 3vw !important;
   }
   .header nav p {
     padding-left: 2vw;
@@ -10777,7 +10777,7 @@ footer div:nth-of-type(2) p:last-of-type {
     text-align: center;
   }
   .sect1 div {
-    max-width: 576px;
+    width: 80% !important;
   }
   .paragraphe p {
     text-align: justify;
