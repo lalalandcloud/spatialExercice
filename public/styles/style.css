@@ -10485,7 +10485,7 @@ body .header {
   background-attachment: fixed;
 }
 body .header header {
-  padding-top: 4vw;
+  padding-top: 15vw;
 }
 body .header header h1 {
   text-align: center;
@@ -10514,9 +10514,12 @@ body .header header button {
   color: #ffffff;
 }
 body .header nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 1vw;
+  padding: 2vw;
+  width: 99vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.3529411765), rgba(0, 0, 0, 0) 9%);
 }
 body .header nav p {
   align-content: center;
