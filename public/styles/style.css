@@ -10592,8 +10592,8 @@ body .header nav ul li {
   height: 24vw;
 }
 .sect2 .div2 .carte div img {
-  object-fit: contain;
-  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
   max-height: 100%;
 }
 .sect2 .div2 .carte h4 {
@@ -10679,7 +10679,7 @@ body .header nav ul li {
   color: rgba(0, 0, 0, 0.4431372549);
 }
 .mini img {
-  width: 150px;
+  width: 12vw;
   border-radius: 50%;
   border: solid 7px rgba(83, 83, 83, 0.168627451);
 }
@@ -10779,39 +10779,38 @@ footer div:nth-of-type(2) p:last-of-type {
   .sect2 {
     padding: 11vw;
   }
-  .sect2 .div2 {
-    display: block !important;
-  }
-  .sect2 .div2 .carte div {
-    height: 42vw !important;
-  }
   .sect2 .div2 .carte div img {
-    object-fit: co;
+    object-fit: cover;
     width: 100%;
   }
   .sect2 .div2 .carte h4 {
     background-color: #ffffff;
     min-width: 50px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
+    text-transform: lowercase;
   }
   .sect2 .div3 {
     flex-wrap: wrap;
   }
   .sect3 .mini {
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     justify-items: center;
     padding: 0;
-    width: 200px !important;
+    width: 100% !important;
   }
   .sect3 .mini div {
-    padding: 0;
+    padding: 1vw;
+  }
+  .sect3 .mini div img {
+    width: 30vw !important;
   }
   .sect3 #sect3div2 {
-    flex-wrap: wrap;
+    display: inline;
+    margin-top: 5vw;
   }
   footer {
     padding: 0;
+    padding-bottom: 3vw;
   }
 }
 /*!
