@@ -10519,7 +10519,7 @@ body .header nav {
   justify-content: space-between;
   padding: 2vw;
   width: 99vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.3529411765), rgba(0, 0, 0, 0) 9%);
+  background: linear-gradient(rgba(0, 0, 0, 0.3529411765), rgba(0, 0, 0, 0) 95%);
 }
 body .header nav p {
   align-content: center;
