@@ -10761,6 +10761,12 @@ footer div:nth-of-type(2) p:last-of-type {
 }
 
 @media (max-width: 576px) {
+  .header {
+    padding-bottom: 3vw;
+  }
+  .header nav p {
+    padding-left: 2vw;
+  }
   .header nav ul {
     flex-direction: column;
   }
